@@ -10,11 +10,11 @@ Programming Languages:
 Project Setup:
 - Clone the repository to your local machine or download the project files.
 - Ensure you have the following files in your project directory:
- web.html (the main HTML file)
- header.css (styles for the header)
- body.css (styles for the body and alumni list)
- data.js (contains alumni data)
- main.js (contains the JavaScript code for functionality)
+ web.html (the main HTML file),
+ header.css (styles for the header),
+ body.css (styles for the body and alumni list),
+ data.js (contains alumni data),
+ main.js (contains the JavaScript code for functionality),
  Images: Ensure the images directory contains the necessary images for alumni profiles, logos, and icons.
 - Open the 'web.html' file in a web browser to view the application.
 - You can search for alumni by typing their names in the search bar and clicking the search button or pressing the Enter key.
