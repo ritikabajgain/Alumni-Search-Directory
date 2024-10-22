@@ -1,0 +1,132 @@
+body {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  padding-top: 20px;
+}
+
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.header{  
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+}
+
+.maroon-section {
+  background-color: #840029;
+  width: 100%;
+  height: auto;
+  color: white;
+}
+
+.alumni-header {
+  background-color: #644242;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.alumni-header p{
+  margin-top: 7px;
+}
+
+.nav-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.ulm-logo {
+  width: 60px;
+  padding: 8px 20px;
+}
+
+.left-section {
+  display: flex;
+}
+
+.middle-section {
+  flex: 1;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  margin: 0 35px;
+}
+
+.search-bar {
+  flex: 1;
+  height: 30px;
+  padding-left: 10px;
+  font-size: 16px;
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  width: 100%;
+}
+
+.search-icon{
+  height: 25px;
+}
+
+.search-button{
+  height: 34px;
+  width: 66px;
+  background-color: rgb(240, 240, 240);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  margin-left: -1px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.search-button .tooltip {
+  position: absolute;
+  background-color: grey;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.search-button:hover .tooltip{
+  opacity: 1;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.home-anchor, .login-anchor {
+  padding-left: 10px;
+  padding-right: 10px;
+  font: white;
+}
+
+.login-anchor {
+  padding-right: 20px;
+}
+
+.home-anchor:hover, .login-anchor:hover {
+  text-decoration: underline;
+}

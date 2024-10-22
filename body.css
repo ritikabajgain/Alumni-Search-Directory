@@ -1,0 +1,58 @@
+main {
+  margin-top: 12%;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.person {
+  display: grid;
+  grid-template-columns: 90px 800px 1fr;
+  margin-top: 30px;
+}
+
+.profile-picture {
+  width: 75px;
+}
+
+.person-info {
+  display: grid;
+  row-gap: 10px;
+}
+
+.other-info {
+  text-align: right;
+  display: grid;
+  row-gap: 0%;
+}
+
+.name {
+  color: maroon;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.line {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  margin-bottom: -10px;
+  margin-top: -15px;
+}
+
+.work-icon,.company-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.work,.company {
+  margin-top: 1px;
+}
+
+.company{
+  color: maroon;
+}
+
